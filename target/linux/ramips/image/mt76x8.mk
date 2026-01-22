@@ -206,8 +206,7 @@ define Device/cudy_lt300-v3
   DEVICE_VARIANT := v3
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-usb-net-rndis \
   kmod-usb-net-cdc-ether kmod-usb-serial-option usb-modeswitch \
-  kmod-usb-net-qmi-wwan uqmi \
-  usbutils pciutils lsusb
+  kmod-usb-net-qmi-wwan uqmi kmod-usb-net-cdc-mbim umbim
 endef
 TARGET_DEVICES += cudy_lt300-v3
 
